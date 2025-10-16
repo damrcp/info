@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>Protocolo RCP</title>
+</head>
+<header>
+    <img src="./davantemedac-LOGO-CARD-removebg-preview.png" alt="Logo Protocolo RCP" id="header-logo">
+</header>
+
+<body>
+
+    <div class="slideshow-container">
+
+        <!-- Slide de Inicio -->
+        <div id="start" class="slide active">
+            <h2>PAS</h2>
+            <p>El Protocolo PAS es una guía de actuación vital en emergencias. Sigue estos tres pasos en orden:</p>
+            <ul>
+                <li><strong>Proteger:</strong> Asegura la zona para protegerte a ti mismo y a la víctima. Señaliza el
+                    lugar y elimina cualquier peligro inmediato.</li>
+                <li><strong>Avisar:</strong> Llama a los servicios de emergencia (112) e informa claramente sobre la
+                    ubicación, el número de víctimas y la situación.</li>
+                <li><strong>Socorrer:</strong> Atiende a las víctimas según tus conocimientos. Si no sabes qué hacer,
+                    mantén la calma, tranquilízalas y sigue las instrucciones del operador de emergencias.</li>
+            </ul>
+            <p>El orden es crucial: Proteger → Avisar → Socorrer.</p>
+            <button onclick="goToSlide('option-a')">Siguiente</button>
+
+        </div>
+
+        <!-- Slide para la Opción A -->
+        <div id="option-a" class="slide">
+            <h2>Qué es la RCP</h2>
+            <ul>
+                <li> Asegura la zona para protegerte a ti mismo y a la víctima. Señaliza el
+                    lugar y elimina cualquier peligro inmediato.</li>
+                <li> Llama a los servicios de emergencia (112) e informa claramente sobre la
+                    ubicación, el número de víctimas y la situación.</li>
+                <li> Atiende a las víctimas según tus conocimientos. Si no sabes qué hacer,
+                    mantén la calma, tranquilízalas y sigue las instrucciones del operador de emergencias.</li>
+            </ul>
+            <p>Mini Juego</p>
+            <p>¿La persona esta Consciente?</p>
+            <button onclick="goToSlide('option-a1')">No</button>
+            <button onclick="goToSlide('option-a2')">Si</button>
+            <br>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+        <div id="option-a1" class="slide">
+            <p>Hay que comprobar que la persona tenga pulso, ya que es lo que nos indicará que el corazón sigue
+                latiendo, se puede comprobar en lugares como la muñeca o el cuello.</p>
+            <h2>¿Tiene Pulso?</h2>
+            <button onclick="goToSlide('option-a1a')">Si</button>
+            <button onclick="goToSlide('option-a1b')">No</button>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+
+        <div id="option-a1b" class="slide">
+            <h2>¿Ha recuperado el pulso?</h2>
+            <button onclick="goToSlide('option-a1b1')">Si</button>
+            <button onclick="goToSlide('option-a1b2')">No</button>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+        <div id="option-a1b1" class="slide">
+            <h2>En el caso de haber recuperado el pulso esperaremos al personal sanitario que previamente abremos llamdo
+                con el protocolo PAS Proteger Avisar con ello podremos asegurar la integridad de la victima</h2>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+        <div id="option-a1b2" class="slide">
+            <h2>En el caso de no recuperar el pulso si disponemos de un Desfibrilador Externo Semiautomático el cual
+                ayudara dando cargas electricas al corazon controladas las cuales realimaran a la victima. En el caso
+                que alla reaimado esperaremos a la asistencia medica para una mejor atencion a la victima manteniendolo
+                posteriormente de la reanimacion en posicion la teral de seguridad
+            </h2>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+
+
+
+
+
+
+
+        <div id="option-a1a" class="slide">
+            <p>La primera acción que deberemos de comprobar es si la víctima respira deberemos de apoyar la cabeza en su
+                pecho mirando que su pecho se eleve</p>
+            <h2>¿Respira?</h2>
+            </p>
+            <button onclick="goToSlide('option-a1a1')">Si</button>
+            <button onclick="goToSlide('option-a1a2')">No</button>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+        <div id="option-a1a2" class="slide">
+            <h2>Compresiones Torácicas (RCP)</h2>
+            <p>Mantendremos la calma
+                como en el protocolo PAS Proteger , Avisar y Socorrer pide ayuda a otro persona si lo necesitas para que
+                te ayude si es necesario. Deberemos realizar las siguientes acciones las cuales ayudaran a la pronta
+                recuperación de la víctima. Realizar la maniobra de Frente-mentón
+            </p>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <p><strong>Posición de la Víctima:</strong> Asegúrate de que la víctima esté tendida boca arriba
+                        (decúbito supino) sobre una superficie dura y plana.</p>
+                </div>
+                <div class="carousel-slide">
+                    <p><strong>Colocación de Manos: </strong>Mano en la Frente: Coloca la palma de una mano firmemente
+                        sobre la frente de la víctima.
+
+                        Dedos en el Mentón: Coloca la yema de los dedos índice y medio (o solo el índice) de tu otra
+                        mano bajo la parte ósea del mentón (barbilla) de la víctima. Es crucial no presionar la parte
+                        blanda debajo del mentón, ya que esto podría obstruir la vía aérea.</p>
+                </div>
+                <div class="carousel-slide">
+                    <p><strong>Ejecución de la Maniobra:
+                        </strong> Inclinar la Cabeza: Ejerce una presión suave pero constante con la mano que está en la
+                        frente, inclinando la cabeza de la víctima suavemente hacia atrás (hiperextensión).
+
+                        Elevar el Mentón: Al mismo tiempo, levanta el mentón hacia arriba y hacia adelante con los dedos
+                        de la otra mano.
+
+
+                    </p>
+                </div>
+                <div class="carousel-slide">
+                    <p><strong>Imagen Ilustrativa:</strong><img src="./menton.jpg"
+                            alt="Descripción de la imagen"></p>
+                </div>
+                <button class="carousel-button prev" onclick="changeCarouselSlide(-1)">&#10094;</button>
+                <button class="carousel-button next" onclick="changeCarouselSlide(1)">&#10095;</button>
+            </div>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+        <div id="option-a1a1" class="slide">
+            <h2>Posición Lateral de Seguridad (PLS)</h2>
+            <p>Si la persona respira pero no está consciente, colóquela en la Posición Lateral de Seguridad para
+                mantener las vías respiratorias abiertas y evitar que se ahogue.</p>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+        <div id="option-a2" class="slide">
+            <h2>¿La persona responde bien?</h2>
+            <button onclick="goToSlide('option-a2a')">Si</button>
+            <button onclick="goToSlide('option-a2b')">No</button>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+        <div id="option-a2a" class="slide">
+            <h2>de manera correcta, será un indicador de que no hay un problema mayor, en este caso verificar si ha
+                habido lesiones y ayudar a incorporarse en caso de caída.</h2>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+
+        <div id="option-a2b" class="slide">
+            <h2>En caso de que no responda de manera clara o no pueda vocalizar:
+                Habrá que llamar al 112 ya que estará desorientada por factores como: Fiebre alta, Intoxicación o abuso
+                de sustancias, Hipotermia o Hipertermia etc.
+
+                Atenderle en lo que llegan los servicios sanitarios, ya que puede tener problemas de orientación para
+                volver a casa (más común en ancianos).
+            </h2>
+            <button onclick="goToSlide('start')">Volver al inicio</button>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+
+<footer>
+    <p>&copy; 2025 - Grupo de Desarrollo DAM2. Todos los derechos reservados.</p>
+</footer>
+
+</html>
